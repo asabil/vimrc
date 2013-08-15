@@ -42,6 +42,7 @@ set laststatus=2
 set showmatch           " show matching brackets
 set mat=5               " how many tenths of a second to blink matching brackets for
 set incsearch           " search as you type
+set smartcase           " Case insensitive match unless search contains uppercase
 set hls ignorecase      " Highlight search
 set list listchars=tab:>·,extends:> " display tabs
 " Display spaces

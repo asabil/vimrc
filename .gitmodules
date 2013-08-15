@@ -31,3 +31,12 @@
 [submodule "ftbundle/less/less"]
 	path = ftbundle/less/less
 	url = git://github.com/groenewege/vim-less.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "ftbundle/puppet/puppet"]
+	path = ftbundle/puppet/puppet
+	url = git://github.com/rodjek/vim-puppet.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
