@@ -1,7 +1,7 @@
 install:
 	git submodule init
 	git submodule update
-	rm ~/.vimrc
+	rm -f ~/.vimrc
 	ln -s `pwd`/vimrc ~/.vimrc
 
 .PHONY: install
