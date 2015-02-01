@@ -9,6 +9,10 @@ Bundle 'tpope/vim-sensible'
 
 Bundle 'bling/vim-airline'
 Bundle 'kien/ctrlp.vim'
+Bundle 'terryma/vim-multiple-cursors'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-repeat'
+Bundle 'AndrewRadev/sideways.vim'
 
 Bundle 'tpope/vim-fugitive'
 Bundle 'mhinz/vim-signify'
@@ -21,13 +25,16 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'rizzatti/funcoo.vim'
 Bundle 'rizzatti/dash.vim'
 
-" HTML
+" Web
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'digitaltoad/vim-jade'
+Bundle 'groenewege/vim-less'
 " Erlang
 Bundle 'edkolev/erlang-motions.vim'
 " Go
 Bundle 'jnwhiteh/vim-golang'
+" Elm
+Bundle 'lambdatoast/elm.vim'
 
 filetype plugin indent on
 runtime! config/*.vim
