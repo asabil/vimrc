@@ -11,9 +11,12 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 link() {
 	local name=$1;
 	[[ -z "$name" ]] && echo "Expecting name" && exit 1;
+	echo "Symlinking ~/.${name}"
 	rm -rf ~/."${name}"
 	ln -s "${DIR}/${name}" ~/."${name}"
 }
 
+git submodule init
+git submodule update
 link "vim"
 link "vimrc"
