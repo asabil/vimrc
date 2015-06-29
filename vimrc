@@ -68,7 +68,8 @@ set mouse=a             " use mouse everywhere
 set shortmess=atI       " shortens messages to avoid 'press a key' prompt
 set report=0            " tell us when anything is changed via :...
 set noerrorbells        " don't make noise
-set guifont=Sauce\ Code\ Powerline:h13
+set guifont=Source\ Code\ Pro\ for\ Powerline\ Regular\ 13
+set guioptions-=T
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Cues
@@ -78,7 +79,7 @@ set mat=5               " how many tenths of a second to blink matching brackets
 set smartcase           " Case insensitive match unless search contains uppercase
 set hls ignorecase      " Highlight search
 set list listchars=tab:\|\ ,extends:>,trail:-,nbsp:_ " display tabs
-set noerrorbells visualbell t_vb= " Disable all bells
+set noerrorbells novisualbell t_vb= " Disable all bells
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Text Formatting/Layout
