@@ -16,6 +16,7 @@ link() {
 	ln -s "${DIR}/${name}" ~/."${name}"
 }
 
+cd $DIR
 git submodule init
 git submodule update
 link "vim"
